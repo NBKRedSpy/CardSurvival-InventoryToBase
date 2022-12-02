@@ -48,3 +48,10 @@ This method removes this mod, but keeps the BepInEx mod loader and any other mod
 Delete the ```InventoryToBase.dll``` from the ```<Steam Directory>\steamapps\common\Card Survival Tropical Island\BepInEx\plugins``` directory.
 # Compatibility
 Safe to add and remove from existing saves.
+
+# Acknowledgements
+Icons from:
+
+[Sack icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/sack)
+
+[Pile icons created by Ahmad Roaayala - Flaticon</a>](https://www.flaticon.com/free-icons/pile)
