@@ -55,3 +55,7 @@ Icons from:
 [Sack icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/sack)
 
 [Pile icons created by Ahmad Roaayala - Flaticon</a>](https://www.flaticon.com/free-icons/pile)
+
+# Change Log
+## 1.0.1
+Changed the mod's move to match the game's Remove All calls.

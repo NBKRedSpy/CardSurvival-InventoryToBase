@@ -21,6 +21,7 @@ namespace InventoryToBase
             __runOriginal = false;
 
             bool isShiftPressed = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+            bool isRegularMove = isShiftPressed == false;
 
             SlotInfo _ToSlot = (SlotInfo)null;
             if (__instance.CurrentSlot.SlotType == SlotsTypes.Inventory || __instance.CurrentSlot.SlotType == SlotsTypes.Base || __instance.CurrentSlot.SlotType == SlotsTypes.Equipment)
@@ -31,6 +32,7 @@ namespace InventoryToBase
                     if (isShiftPressed)
                     {
                         _ToSlot = new SlotInfo(SlotsTypes.Base);
+                        isRegularMove = false;
                     }
                     else
                     {
@@ -51,6 +53,7 @@ namespace InventoryToBase
                     if (isShiftPressed)
                     {
                         _ToSlot = new SlotInfo(SlotsTypes.Base);
+                        isRegularMove = false;
                     }
                     else
                     {
@@ -63,7 +66,7 @@ namespace InventoryToBase
             if (_ToSlot == null)
                 return;
             _ToSlot.SlotIndex = 1000;
-            ___GraphicsM.MoveCardToSlot(__instance, _ToSlot, true, false);
+            ___GraphicsM.MoveCardToSlot(__instance, _ToSlot, isRegularMove, false);
 
         }
 
