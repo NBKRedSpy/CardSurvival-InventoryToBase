@@ -62,5 +62,10 @@ Icons from:
 [Pile icons created by Ahmad Roaayala - Flaticon</a>](https://www.flaticon.com/free-icons/pile)
 
 # Change Log
+## 1.1.0
+* Fixed compatibility issue with v1.04
+* Internal: Simplified code to only run when shift is pressed, otherwise use game's origional.
+* Internal: Patched code is now identical to game's version minus slot target.
+
 ## 1.0.1
 Changed the mod's move to match the game's Remove All calls.
