@@ -63,7 +63,8 @@ Icons from:
 
 # Change Log
 ## 1.1.0
-* Fixed compatibility issue with v1.04
+* v1.04 compatibility.
+* Fixed compatibility issue with v1.04.
 * Internal: Simplified code to only run when shift is pressed, otherwise use game's origional.
 * Internal: Patched code is now identical to game's version minus slot target.
 
